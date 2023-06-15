@@ -1,0 +1,85 @@
+@import '../../utilities/_variables.scss';
+
+.home-page {
+  height: 90vh;
+  .text-zone {
+    position: absolute !important;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%) !important;
+    width: 40%;
+    max-height: 100%;
+    min-width: $min-widthpx;
+  }
+  
+  h1 {
+    color: var(--h1-text-color);
+    font-size: 56px;
+    line-height: 53px;
+    margin: 0;
+    font-family: 'Coolvetica';
+    font-weight: 400;
+
+    img {
+      margin-left: 20px;
+      opacity: 0;
+      width: 32px;
+      height: auto;
+      animation: rotateIn 1s linear both;
+      animation-delay: 1.4s;
+    }
+  }
+
+  h2 {
+    color: var(--h2-text-color);
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 11px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    animation: fadeIn 1s 1.8s backwards;
+    max-width: 566px;
+    padding: 0px 10px 0px;
+  }
+
+  .flat-button {
+    color: var(--accent-color);
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid var(--accent-color);
+    margin-top: 25px;
+    float: left;
+    animation: fadeInAnimation 1s 1.8s backwards;
+    white-space: nowrap;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    &:hover {
+      background: var(--accent-color);
+      color: var(--button-darktext-color);
+    }
+  }
+}
+
+.container .home-page {
+  width: 1240px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+  
+  
+  @media screen and (max-width: $mobile-width) {  
+    .home-page .text-zone {
+      position: initial;
+      width: 100%;
+      transform: none;
+      left: 0%;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+  }

@@ -1,0 +1,56 @@
+@import '../../utilities/_variables.scss';
+
+.right-bar {
+    width: 60px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    min-height: 500px;
+    right: 0;
+
+    ul {
+        position: absolute;
+        bottom: 85px;
+        width: 100%;
+        display: block;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+        margin: 0;
+    
+        li {
+            a {
+                font-size: 15px;
+                color: var(--side-bar-color);
+                display: block;
+                line-height: 51px;
+                height: 51px;
+                position: relative;
+                text-decoration: none;
+                rotate: -90deg;
+                margin-left: -3px;
+                &:hover {
+                    color: var(--accent-color);
+                }
+            }
+
+            
+        }
+    }
+}
+
+.vl {
+    border-left: 2px solid var(--side-bar-color);
+    height: 75px;
+    position: absolute;
+    left: 50%;
+    margin-left: -1px;
+    bottom: 0;
+}
+
+@media screen and (max-width: $mobile-width) {
+    .right-bar {
+        display: none;
+    }
+}

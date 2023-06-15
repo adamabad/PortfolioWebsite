@@ -1,0 +1,39 @@
+//Mobile and Min width
+$mobile-width: 540px;
+$min-widthpx: 320px;
+
+:root {
+    //Main Theming colors
+    --accent-color: #ffd700;
+    --nav-bar-background-color: #181818;
+    --nav-bar-text-color: #4d4d4d;
+    --body-background-color: #022c43;
+    --side-bar-color: #ccc;
+    --h1-text-color: #fff;
+    --h2-text-color: #8d8d8d;
+    --darktext-color: #4d4d4d;
+    --button-darktext-color: #4d4d4d;
+
+    //Scrollbar
+    --scrollbar-track-color: #f1f1f1;
+    --scrollbar-thumb-color: #888;
+    --scrollbar-thumb-color-hover: #555;
+}
+
+[data-theme='dark'] {
+    //Main Theming colors
+    --accent-color: #121212;
+    --nav-bar-background-color: #181818;
+    --nav-bar-text-color: #1c1b1b;
+    --body-background-color: #000;
+    --side-bar-color: #ccc;
+    --h1-text-color: #fff;
+    --h2-text-color: #8d8d8d;
+    --darktext-color: #4d4d4d;
+    --button-darktext-color: #4d4d4d;
+
+    //Scrollbar
+    --scrollbar-track-color: #f1f1f1;
+    --scrollbar-thumb-color: #888;
+    --scrollbar-thumb-color-hover: #555;
+}

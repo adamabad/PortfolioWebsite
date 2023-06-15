@@ -1,0 +1,40 @@
+@import '../../utilities/_variables.scss';
+
+.experience-page {
+    margin:auto;
+    padding: 8rem 1rem 0 1rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    top: 200vh;
+    height: 100vh;
+    min-width: $min-widthpx;
+    
+    .text-zone {
+        position: absolute;
+        left: 10%;
+        top: 10%;
+        width: 40%;
+        max-height: 90%;
+    }
+
+    h1 {
+        color: var(--h1-text-color);
+        font-size: 56px;
+        line-height: 53px;
+        margin: 0;
+        font-family: 'Coolvetica';
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width: $mobile-width) {  
+    .experience-page .text-zone {
+      width: 100%;
+      transform: none;
+      left: 0%;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+}

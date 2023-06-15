@@ -1,0 +1,33 @@
+@import '../src/utilities/_variables.scss';
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    min-width: $min-widthpx;
+    font: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
+    color: var(--darktext-color);
+    background-color: var(--body-background-color);
+    display: block;
+    //overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--scrollbar-track-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb-color);
+}
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: var(--scrollbar-thumb-color-hover);
+    }

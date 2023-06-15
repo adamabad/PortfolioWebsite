@@ -1,0 +1,2 @@
+C:\Users\Adam\source\repos\PortfolioWebsite\obj\Debug\portfoliowebsite.esproj.SuggestedBindingRedirects.cache
+C:\Users\Adam\source\repos\PortfolioWebsite\obj\Debug\portfoliowebsite.esproj.CoreCompileInputs.cache
