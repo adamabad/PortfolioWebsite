@@ -1,5 +1,6 @@
 import './index.scss';
-
+import Cards from '../Cards';
+/*
 const Expereience = () => {
     return (
             <div className='container experience-page' id="expereience">
@@ -21,5 +22,17 @@ const Expereience = () => {
             </div>
     )
 }
+*/
 
+const Expereience = () => {
+    return (
+        <div className='container experience-page' id="expereience">
+            <div className='text-zone'>
+                <div className='card-zone'>
+                    <Cards />
+                </div>
+            </div>
+        </div>
+    )
+}
 export default Expereience
