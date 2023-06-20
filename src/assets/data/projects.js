@@ -2,7 +2,7 @@ export const projectData = [
         {
             "name": "project1",
             "description": "this is a short description for the project1",
-            "image": null,
+            "image": "52c.jpg",
             "link": "https://google.com",
             "bubbles": [
                 "bubble1",
@@ -13,7 +13,7 @@ export const projectData = [
         {
             "name": "project2",
             "description": "this is a short description for the project2",
-            "image": null,
+            "image": "dunsparce_by_dragonith-d7rg7px.png",
             "link": "https://google.com",
             "bubbles": [
                 "bubble5",

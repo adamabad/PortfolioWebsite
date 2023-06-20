@@ -13,11 +13,15 @@ $min-widthpx: 320px;
     --h2-text-color: #8d8d8d;
     --darktext-color: #4d4d4d;
     --button-darktext-color: #4d4d4d;
-
     //Scrollbar
     --scrollbar-track-color: #f1f1f1;
     --scrollbar-thumb-color: #888;
     --scrollbar-thumb-color-hover: #555;
+    //Cards
+    --card-box-color: #4d4d4d;
+    --card-bubble-color: #ffd700;
+    --card-header-color: #fff;
+    --card-description-color: #8d8d8d;
 }
 
 [data-theme='dark'] {
@@ -31,9 +35,13 @@ $min-widthpx: 320px;
     --h2-text-color: #8d8d8d;
     --darktext-color: #4d4d4d;
     --button-darktext-color: #4d4d4d;
-
     //Scrollbar
     --scrollbar-track-color: #f1f1f1;
     --scrollbar-thumb-color: #888;
     --scrollbar-thumb-color-hover: #555;
+    //Cards
+    --card-box-color: #4d4d4d;
+    --card-bubble-color: #ffd700;
+    --card-header-color: #fff;
+    --card-description-color: #8d8d8d;
 }
